@@ -92,6 +92,9 @@ int main() {
 							if (data[i][j] == -1 && out == -1) {
 								printf("\t*");
 							}
+							else if (data[i][j] == 0) {
+								printf("\t");
+							}
 							else {
 								printf("\t%d", data[i][j]);
 							}
@@ -146,6 +149,9 @@ int main() {
 						if (data[i][j] == -1) {
 							printf("\t*");
 						}
+						else if (data[i][j] == 0) {
+							printf("\t");
+						}
 						else {
 							printf("\t%d", data[i][j]);
 						}
@@ -167,5 +173,5 @@ int main() {
 	else {
 			printf("오류입니다\n");
 	}
-	return 0;
+	system("pause");
 }
