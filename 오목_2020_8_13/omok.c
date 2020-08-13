@@ -195,7 +195,7 @@ int check(int x,int y) {
 	return 0;
 }
 int main() {
-	int x, y;
+	int x=0, y=0;
 	int i,j,c;
 	printf("    ");
 	for (i = 0; i <= 14; i++) {
@@ -295,9 +295,6 @@ int main() {
 					else if (pan[i][j] == 1) {
 						if (pan[i][j - 1] == 1 && j > 0 || pan[i][j - 1] == 2 && j > 0) {
 							printf("¡Û");
-						}
-						else if (j==0) {
-							printf("--¡Û");
 						}
 						else {
 							printf("-¡Û");
