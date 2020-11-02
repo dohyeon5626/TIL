@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="select_1.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="container my-5">
+      <div class="form-group">
+        <p>상품선택</p>
+        <select class="form-control" id="option1" style="width: 100px;">
+          <option>모자</option>
+          <option>셔츠</option>
+          <option>바지</option>
+        </select>
+        <div class="size-select1">
+          <p class="mt-4">사이즈선택</p>
+          <select class="form-control" id="option2" style="width: 100px;">
+            <option>95</option>
+            <option>100</option>
+            <option>105</option>
+          </select>
+        </div>
+        <div class="size-select2">
+          <p class="mt-4">사이즈선택</p>
+          <select class="form-control" id="option2" style="width: 100px;">
+            <option>28</option>
+            <option>30</option>
+            <option>32</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $('#option1').on('change',function(){
+      if($('#option1').val()=='셔츠'){
+        $('.size-select1').show();
+        $('.size-select2').hide();
+      }
+      else if($('#option1').val()=='바지'){
+        $('.size-select1').hide();
+        $('.size-select2').show();
+      }
+      else{
+        $('.size-select1').hide();
+        $('.size-select2').hide();
+      }
+    })
+  </script>
+</html>
