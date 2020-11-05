@@ -18,3 +18,4 @@ http://bootstrapk.com/ ->공식사이트에서 파생되진 않았지만 한글�
 
 https://getbootstrap.kr/
 다양한 방식이 있지만, CDN방식을 이용해 간단히 맛을 봐 볼 수 있음
+전문적으로 쓸 것이면, 다운 후 사용을 권장
