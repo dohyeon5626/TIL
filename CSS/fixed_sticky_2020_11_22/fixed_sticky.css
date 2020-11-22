@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 3000px;
+  display: flex;
+}
+div {
+  display: flex;
+  border: 1px solid gray;
+  height: 500px;
+  width: 500px;
+}
+div > p {
+  margin: 3px;
+  border: 0px solid none;
+  border-radius: 5px;
+  height: 25px;
+}
+p.fixed {
+  position: fixed;
+  background-color: red;
+}
+p.sticky {
+  position: sticky;
+  background-color: blue;
+  top: 0;
+}
