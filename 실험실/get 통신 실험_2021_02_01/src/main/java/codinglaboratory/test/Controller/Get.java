@@ -1,5 +1,7 @@
 package codinglaboratory.test.Controller;
 
+import org.springframework.web.bind.annotation.ResponseBody;
+
 public class Get {
 
     private final long id;

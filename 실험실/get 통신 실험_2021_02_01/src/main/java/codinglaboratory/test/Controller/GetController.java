@@ -1,10 +1,6 @@
 package codinglaboratory.test.Controller;
 
-import com.google.gson.Gson;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -12,9 +8,8 @@ import java.util.concurrent.atomic.AtomicLong;
 @RestController
 public class GetController {
     private final AtomicLong counter = new AtomicLong();
-    Gson gson = new Gson();
     @GetMapping("/get")
-    public String get_return (@RequestParam(value = "value", defaultValue = "현재 서버로 올라온 값이 없음") String value){
-        return  gson.toJson(new Get(counter.incrementAndGet(), value));
+    public Get get_return (@RequestParam(value = "value", defaultValue = "현재 서버로 올라온 값이 없음") String value){
+        return new Get(counter.incrementAndGet(), value);
     }
 }
