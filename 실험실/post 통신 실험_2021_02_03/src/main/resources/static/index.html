@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+<h3>서버에서 받아갈 값</h3>
+<input id="server_1" type="text" name="">
+<button onclick="post_server(document.getElementById('server_1').value)">서버로 요청</button>
+<h3>서버에서 온 값</h3>
+<input id="server_2" type="text" name="">
+</body>
+<script>
+    function post_server(value){
+        fetch("http://localhost:8080/post",
+            {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body : JSON.stringify({
+                "data" : value
+            })
+    }).then((response) => response.json()).then((data) => document.getElementById('server_2').value=data.content)
+    }
+</script>
+</html>
