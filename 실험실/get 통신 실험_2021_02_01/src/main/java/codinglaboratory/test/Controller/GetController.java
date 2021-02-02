@@ -1,5 +1,6 @@
 package codinglaboratory.test.Controller;
 
+import codinglaboratory.test.domain.Get;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;

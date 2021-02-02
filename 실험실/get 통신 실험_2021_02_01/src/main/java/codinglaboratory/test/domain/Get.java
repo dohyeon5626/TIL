@@ -1,4 +1,4 @@
-package codinglaboratory.test.Controller;
+package codinglaboratory.test.domain;
 
 import org.springframework.web.bind.annotation.ResponseBody;
 
