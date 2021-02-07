@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-@CrossOrigin
 @RestController
 public class GetController {
     private final AtomicLong counter = new AtomicLong();

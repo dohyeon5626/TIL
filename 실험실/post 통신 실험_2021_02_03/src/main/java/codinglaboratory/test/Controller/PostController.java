@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-@CrossOrigin
 @RestController
 public class PostController {
     private final AtomicLong counter = new AtomicLong();
