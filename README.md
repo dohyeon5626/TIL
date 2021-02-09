@@ -19,4 +19,9 @@ This is directory that tries various things regardless field
 
   This project is a communication experiment that use **Post** method
   The client used a fetch function in **Javascript** to communicate with a server that made by **Springboot**
+  
+- [**file 통신 실험**](https://github.com/dohyeon5626/TIL/tree/master/%EC%8B%A4%ED%97%98%EC%8B%A4/file%20%ED%86%B5%EC%8B%A0%20%EC%8B%A4%ED%97%98_2021_02_10)
+
+  This project is a communication experiment of **file**
+  The client used a form tag to communicate with a server that made by **Springboot**
 
