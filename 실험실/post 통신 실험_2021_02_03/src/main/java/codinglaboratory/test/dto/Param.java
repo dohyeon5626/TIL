@@ -1,4 +1,4 @@
-package codinglaboratory.test.domain;
+package codinglaboratory.test.dto;
 
 public class Param {
     private String data;

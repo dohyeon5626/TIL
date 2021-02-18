@@ -1,13 +1,11 @@
-package codinglaboratory.test.domain;
+package codinglaboratory.test.dto;
 
-import org.springframework.web.bind.annotation.ResponseBody;
-
-public class Post {
+public class Get {
 
     private final long id;
     private final String content;
 
-    public Post(long id, String content) {
+    public Get(long id, String content) {
         this.id = id;
         this.content = content;
     }

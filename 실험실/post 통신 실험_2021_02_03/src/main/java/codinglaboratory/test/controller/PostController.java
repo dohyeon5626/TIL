@@ -1,7 +1,7 @@
-package codinglaboratory.test.Controller;
+package codinglaboratory.test.controller;
 
-import codinglaboratory.test.domain.Param;
-import codinglaboratory.test.domain.Post;
+import codinglaboratory.test.dto.Param;
+import codinglaboratory.test.dto.Post;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;

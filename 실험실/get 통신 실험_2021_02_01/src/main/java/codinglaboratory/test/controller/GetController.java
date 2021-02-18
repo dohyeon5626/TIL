@@ -1,6 +1,6 @@
-package codinglaboratory.test.Controller;
+package codinglaboratory.test.controller;
 
-import codinglaboratory.test.domain.Get;
+import codinglaboratory.test.dto.Get;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
