@@ -22,12 +22,14 @@ def f(angle, count, distance):
     return
 
 
+a = 5 # 단계
+
 t.speed(3000)
-t.pensize(2)
+t.pensize(1)
 t.left(90)
 t.penup()
 t.back(200)
 t.down()
 t.forward(100)
-f(90, 10, 120)
+f(a, 10, 120)
 t.mainloop()
