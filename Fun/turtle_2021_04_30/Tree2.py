@@ -35,6 +35,7 @@ def draw(count, turn):
 
 a = 5  # 단계
 
+t.setup(width = 1000, height = 800)
 t.speed(100)
 t.pensize(1)
 t.left(90)
