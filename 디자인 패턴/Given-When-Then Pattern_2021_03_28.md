@@ -27,3 +27,21 @@
 
 
 
+### 예시
+
+```java
+ @Test
+public void GetControllerRetrunTest() throws Exception {
+    //given
+	    /*given은 이 상황에서는 없음*/
+    //when
+	MvcResult result = mvc.perform(get("/greet") // '/greet'로 get방식으로 요청을 보냄
+		.param("value", "hello"))
+		.andExpect(status().isOk())
+		.andReturn();
+    //then
+	Get response = objectMapper.readValue(result.getResponse().getContentAsString(), Get.class); // 요청을 다시 받아서 객체에 넣음
+	Assertions.assertEquals(response.getContent(), "hello"); // 요청이 기대한 바와 맞는지 비교
+}
+```
+
