@@ -14,3 +14,7 @@ This directory have funny moment
 ### [클린코드](https://github.com/dohyeon5626/TIL/tree/master/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C)
 
 This directory contains information about "**Clean Code**"
+
+### [디자인패턴](https://github.com/dohyeon5626/TIL/tree/master/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4)
+
+This directory holds **design pattern** information
