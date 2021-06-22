@@ -6,7 +6,7 @@ It is a repository that uploads what I studied every day
 
 This is a directory that organizes **background information** for development
 
-### [Fun](https://github.com/dohyeon5626/TIL/tree/master/%EC%8B%A4%ED%97%98%EC%8B%A4)
+### [Fun](https://github.com/dohyeon5626/TIL/tree/master/Fun)
 
 This is directory that tries various things regardless field
 This directory have funny moment
